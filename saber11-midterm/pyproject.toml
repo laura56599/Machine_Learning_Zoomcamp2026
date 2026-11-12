@@ -1,0 +1,20 @@
+[project]
+name = "saber11-midterm"
+version = "0.1.0"
+description = "Prediccion de alto desempeno en Saber 11 - ML Zoomcamp 2026 midterm"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+]
